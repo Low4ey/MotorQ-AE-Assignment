@@ -65,7 +65,11 @@ Before you begin, ensure you have the following software installed on your machi
 
    ```
    REACT_APP_API_URL=http://localhost:5000
-   REQUIRED_SECRET_KEY
+   ATPK=abc    
+   RTPK=xyz
+   SALT=10
+   REFRESH_TOKEN_EXPIRE_IN=30d
+   ACCESS_TOKEN_EXPIRE_IN=30d
    ```
 
    Modify the `REACT_APP_API_URL` to match your server's URL.
